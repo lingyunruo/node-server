@@ -19,7 +19,7 @@ module.exports = (config) => {
 
 			try {
 				let result = '';
-				if(cacheObj[url]) {
+				if(cacheObj[url] && false) {
 					result = cacheObj[url];
 				}
 				else {

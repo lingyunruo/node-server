@@ -28,4 +28,4 @@ app.use(async ctx => {
 	ctx.body = ctx.state.body;
 });
 
-app.listen(80);
+app.listen(config.server.port);

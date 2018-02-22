@@ -18,5 +18,8 @@ module.exports = {
 	static: {
 		basePath: path.join(__dirname, '../static'),
 		extname: ['.js', '.css']
+	},
+	server: {
+		port: 8080
 	}
 };
